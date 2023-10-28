@@ -1,0 +1,188 @@
+{
+  "main": {
+    "id": "52aa1a4a6a6838cf",
+    "type": "split",
+    "children": [
+      {
+        "id": "565f494405b21a2a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "19ad88273f91c6d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "git操作指南/git下载代码.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d48af17ae72f2f93",
+    "type": "split",
+    "children": [
+      {
+        "id": "229e4e54befec13d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e08a8f945d657690",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "77b8f9160085afa1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7b0c4046d3fddf65",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fd4f98898524b665",
+    "type": "split",
+    "children": [
+      {
+        "id": "fcda8dcce59655e9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f68a73f839a4140",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "git操作指南/git下载代码.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7eeebb29432f9ad7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "git操作指南/git下载代码.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9d21d2711dd1e120",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6b502a487040f19c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "git操作指南/git下载代码.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "e08a8f945d657690",
+  "lastOpenFiles": [
+    "notes/Readme.md",
+    "notes/新建 文本文档.txt",
+    "notes",
+    "Private/Readme.md",
+    "privateNotes",
+    "Private/论文素材/论文梳理/开题相关/论文方向梳理/论文方向梳理.md",
+    "Private/论文素材/论文梳理/开题相关/论文方向梳理/参考论文.md",
+    "Private/论文素材/论文梳理/开题相关/选题背景与研究现状.md",
+    "Private/论文素材/论文梳理/开题相关/论文方向梳理",
+    "Private/论文素材/论文梳理/开题相关/文献综述.md",
+    "Private/论文素材/论文梳理/开题相关/开题的问题.md",
+    "Private/论文素材/论文梳理/实施方案/区块链相关.md",
+    "Private/论文素材/论文梳理/解决问题角度.md",
+    "Private/论文素材/论文梳理/缩略词表.md",
+    "Private/论文素材/论文梳理/答辩准备.md",
+    "Private/论文素材/论文梳理/科技部中期答辩--专家评审.md",
+    "Private/论文素材/论文梳理/测试区块链平台.md",
+    "Private/论文素材/论文梳理/毕设中期汇报问题与改进.md",
+    "Private/论文素材/论文梳理/搭建区块链平台问题.md",
+    "Private/论文素材/论文梳理/开题相关",
+    "Private/论文素材/论文梳理/实施方案",
+    "Private/论文素材/论文梳理/区块链平台角色设计.md",
+    "Private/论文素材/论文梳理/区块链大项目中期答辩.md",
+    "Private/论文素材/论文梳理/共识算法相关论文.md",
+    "Private/论文素材/论文梳理/一些专业概念学习.md",
+    "Private/论文素材/论文梳理/Permissioned Blockchain and Deep-Learning for Secure and Efficient Data Sharing in Industrial Healthcare Systems.md",
+    "Private/论文素材/论文梳理/elecChain_基于联盟链的输配电设备监管平台.md",
+    "Private/论文素材/论文梳理/blocksys2022.md",
+    "Private/论文素材/论文梳理/BlockSys Rev.md",
+    "Private/论文素材/论文梳理/An Open Source Solution for Smart Contract-based Parking.md",
+    "Private/论文素材/共识算法/共识算法论文.md",
+    "Private/论文素材/共识算法/共识算法原理.md",
+    "Private/论文素材/论文梳理",
+    "Private/论文素材/共识算法",
+    "Private/论文素材",
+    "Private/思特奇/习酒项目组/Cron表达式"
+  ]
+}
