@@ -1,0 +1,50 @@
+{
+  "settings": {
+    "migrated": true,
+    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": "#0833b4",
+    "recentlyUsedIcons": [
+      "🌳",
+      "🌻",
+      "✍",
+      "FasFileExport",
+      "🔒"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false
+  },
+  "CloudNative": "SiKubernetes",
+  "Network": "FasNetworkWired",
+  "CloudNative/cni-network": "MyCni",
+  "FrequentlyUsed": "📓",
+  "CloudNative/cni-network/calico": "MiCalico",
+  "Network/wireshark": {
+    "iconName": null,
+    "inheritanceIcon": "MiWireshark"
+  },
+  "ProgramLanguage": "FasBarsProgress",
+  "OtherTools": "FasGears",
+  "WorkNotes": "📔",
+  "OtherTools/Git": "IbTreeMapDown",
+  "TmpFiles": "📁",
+  "CloudNative/ContainerRelated/docker": "FabDocker",
+  "CloudNative/Tools": "FasScrewdriverWrench",
+  "CloudNative/LoadBalancer": "FasScaleBalanced",
+  "WorkNotes/Metallb": "MiMetallb",
+  "WorkNotes/KS-Network": "MiKubesphere",
+  "Network/交换机配置/containerlab": "MiContainerlabExportWhiteInk",
+  "WorkNotes/OpenELB": "MiOpenelbVertical",
+  "Private": "🔒",
+  "Templates": "FasFileExport",
+  "WeeklySummary": "✍",
+  "TreeHole": "🌳"
+}

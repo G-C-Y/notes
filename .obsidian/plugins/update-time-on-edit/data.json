@@ -1,0 +1,14 @@
+{
+  "dateFormat": "yyyy-MM-dd",
+  "readDateFormat": "yyyy-MM-dd",
+  "useDifferentReadFormat": false,
+  "enableCreateTime": true,
+  "headerUpdated": "modified",
+  "headerCreated": "created",
+  "minMinutesBetweenSaves": 1,
+  "ignoreGlobalFolder": [
+    "/",
+    "Templates"
+  ],
+  "ignoreCreatedFolder": []
+}

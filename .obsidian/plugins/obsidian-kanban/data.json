@@ -1,0 +1,17 @@
+{
+  "new-line-trigger": "shift-enter",
+  "show-board-settings": true,
+  "tag-colors": [
+    {
+      "tagKey": "",
+      "color": "",
+      "backgroundColor": ""
+    }
+  ],
+  "show-view-as-markdown": false,
+  "new-note-template": "Templates/创建看板文件.md",
+  "new-note-folder": "WorkNotes/KanBan",
+  "archive-with-date": true,
+  "archive-date-separator": "-",
+  "show-checkboxes": true
+}

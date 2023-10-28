@@ -1,0 +1,8 @@
+{
+  "server": "mirr",
+  "custom": {
+    "down": "https://gh.gcdn.mirr.one/",
+    "raw": "https://raw-gh.gcdn.mirr.one/",
+    "home": "https://gh.gcdn.mirr.one/"
+  }
+}
