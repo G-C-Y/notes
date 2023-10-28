@@ -1,0 +1,3 @@
+[submodule "privateNotes"]
+	path = privateNotes
+	url = https://github.com/G-C-Y/privateNotes.git
