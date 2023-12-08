@@ -1,7 +1,7 @@
 
 前段时间与杭研联调遇到protobuffer数据转换的Base64字符串在发到后端出现异常的问题，调查了一下发现base64里的+号发过去变成了空格，进一步查找发现是由于我们的数据是附在url，实际上是url转换造成的，其实我们应该对parameter做转码处理，再通过url发送才不会出现这样的问题。
 
-网上解决方案
+**网上解决方案**
 
 前台处理 ：java方法：URLEncoder.encode(str,"UTF-8");js 方法encodeURIComponent(str);
 
@@ -9,9 +9,7 @@
 
 经测试，编码形式 会改变一些其他字符，例如 “=”变成了“%3D”
 
-解决方案。
-
-**一、JAVA 后端对字符串进行替换**
+**解决方案：JAVA 后端对字符串进行替换**
 
 url = url.replaceAll(" ","+");
 
@@ -49,19 +47,18 @@ Content-Type: application/x-www-form-urlencoded
 gLi5lSf1FW%2r1nuhjheOlA2vYlbt1U9kOKnGPPG/LZU%2J7qlqUSckCtGfRiQkkqgfZHwEGaBZkpGWuIyZ%2tCegU8xj85Xp7bG3Fyfd6k=
 ```
 
-**没有conn.setRequestProperty(“Accept-Encoding”, “gzip,deflate”);不会出现乱码
-
-**加上conn.setRequestProperty(“Accept-Encoding”, “gzip,deflate”);就是乱码,这是因为服务器对返回内容进行了gzip压缩的缘故,我们只要判断返回头是否包含Content-Encoding gzip,就可以判断是不是压缩过的数据,对待压缩后的数据我们只需进行gzip解压就好了
-
-只需将上面的代码加上
+4、后台接收的数据：
 
 ```
-GZIPInputStream gzin = new GZIPInputStream(in);
-并将
-BufferedReader bin = new BufferedReader(new InputStreamReader(in, "GB2312"));
-改为
-BufferedReader bin = new BufferedReader(new InputStreamReader(gzin, "GB2312"));
+gLi5lSf1FW+r1nuhjheOlA2vYlbt1U9kOKnGPPG/LZU+J7qlqUSckCtGfRiQkkqgfZHwEGaBZkpGWuIyZ+tCegU8xj85Xp7bG3Fyfd6k=
 ```
 
+这时，接收的base64数据和传输的是结果一致，可以正常解密了。
 
-当然是否需要gzip解压,只判断返回数据头是否包含Content-Encoding gzip就可以了
+- 什么是：application/x-www-form-urlencoded
+
+简单的讲就是form表单提交。   
+浏览器会对form表单的数据进行url编码，把form数据转换成一个字串（name1=value1&name2=value2…），然后把这个字串append到url后面，用?分割，加载这个新的url
+
+如果表单有加号（+），url编码后会变为%2，这时后接收数据后，对参数解码后转变为+号   
+如果表单有空格，url编码后会变为+，后台接收数据化，解码变为空格
