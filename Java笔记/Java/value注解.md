@@ -40,6 +40,7 @@ public class InrScrSrcController {
 如果是普通类中使用
 
 ```
+@Service
 public class YXInterfaceCallUtil {  
 
     private static String baseUrl;  
