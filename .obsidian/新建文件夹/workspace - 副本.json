@@ -1,0 +1,216 @@
+{
+  "main": {
+    "id": "7f3ca89b14dcc697",
+    "type": "split",
+    "children": [
+      {
+        "id": "9b5afddf70cdf842",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "04905d0a1c234e1f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "privateNotes/思特奇/2024工作交付/1月工作交付.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "24917a22829ad1f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6ab904639e3d387a",
+    "type": "split",
+    "children": [
+      {
+        "id": "1976e220d4a35a96",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9d39f42893135152",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "76349503616e8148",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "76d4c5d7b8b8b3e3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 723.4999961853027
+  },
+  "right": {
+    "id": "599074ac4014c449",
+    "type": "split",
+    "children": [
+      {
+        "id": "dbfcf94e8bd23708",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ae566ad888df3f9c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "未命名 1.md"
+              }
+            }
+          },
+          {
+            "id": "7c6a5793290d5a6a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "未命名 1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5a0505f2d3f7449c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "未命名 1.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "821a5a2d21a951c1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d27c4d2f38e0423c",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 687.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
+    }
+  },
+  "active": "9d39f42893135152",
+  "lastOpenFiles": [
+    "privateNotes/思特奇/2024工作交付/1月工作交付.md",
+    "未命名 1.md",
+    "privateNotes/思特奇/华创信用项目/sql更新记录.md",
+    "linux操作笔记/570个Linux命令大全.pdf",
+    "linux操作笔记/570个linux常用命令速查大全.pdf",
+    "linux操作笔记/linux下的Java环境.md",
+    "privateNotes/思特奇/黔南州交通系统/交接文档.md",
+    "privateNotes/思特奇/华创信用项目/易云私有化部署安装手册1.0.md",
+    "Java笔记/服务器/常用的DOS命令与文本编辑快捷键.md",
+    "privateNotes/思特奇/黔南州交通系统",
+    "privateNotes/思特奇/华创信用项目/华创易云部署操作手册.md",
+    "privateNotes/思特奇/华创信用项目/私有云测试部署相关问题总结.md",
+    "privateNotes/思特奇/华创信用项目/机器配置hosts.md",
+    "privateNotes/思特奇/华创信用项目/项目相关信息.md",
+    "privateNotes/思特奇/git使用学习笔记.md",
+    "git操作指南/git基础.md",
+    "git操作指南/配置同时使用 Gitlab、Github共存的开发环境.md",
+    "git操作指南/Github提速.md",
+    "git操作指南/git下载代码.md",
+    "privateNotes/联调bug总结.md",
+    "privateNotes/思特奇/信息汇总.md",
+    "privateNotes/思特奇/华创信用项目/易云获取登录信息.md",
+    "privateNotes/思特奇/华创信用项目/PC终端信息.md",
+    "privateNotes/思特奇/华创信用项目/tomcat部署jvm调优等配置说明.md",
+    "privateNotes/思特奇/华创信用项目/待办.canvas",
+    "privateNotes/思特奇/华创信用项目/易云页面接口服务异常处理@20231102@guocy_oepd.md",
+    "privateNotes/思特奇/华创信用项目/远程机在107主机访问私有云数据库.md",
+    "privateNotes/思特奇/12月工作交付 1 1.md",
+    "privateNotes/思特奇/2023工作交付/12月工作交付.md",
+    "privateNotes/思特奇/2024工作交付",
+    "privateNotes/思特奇/华创信用项目/同步数据至私有云测试时反引号解析问题处理.md",
+    "privateNotes/思特奇/华创信用项目/易云私有化部署安装手册1.0.docx",
+    "privateNotes/思特奇/华创信用项目/易云私有化部署安装手册1.0.pdf",
+    "privateNotes/思特奇/华创信用项目/易云私有化部署安装手册1.0 1.docx",
+    "temp笔记/Untitled Diagram.svg",
+    "Java笔记/Java/Untitled Diagram.svg",
+    "privateNotes/思特奇/华创信用项目",
+    "l临时/Untitled Diagram 1.svg",
+    "l临时/未命名.canvas",
+    "temp笔记"
+  ]
+}
