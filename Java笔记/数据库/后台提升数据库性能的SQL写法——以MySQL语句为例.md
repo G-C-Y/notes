@@ -1,3 +1,7 @@
+SQL语句的执行顺序：
+
+![image.png](https://images.cherryfloris.eu.org/2024/05/aafc5e6285782d15a13fa917ab48849a.png)
+
 ### 1LIMIT 语句
 分页查询是最常用的场景之一，但也通常也是最容易出问题的地方。比如对于下面简单的语句，一般 DBA 想到的办法是在 type, name, create_time 字段上加组合索引。这样条件排序都能有效的利用到索引，性能迅速提升。
 ```
